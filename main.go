@@ -22,7 +22,7 @@ func init() {
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "<html><body>\n")
-	fmt.Fprint(w, "<p>Hello from the flame-starter-go-static server!</p>")
+	fmt.Fprint(w, "<p>Hello world!</p>")
 	fmt.Fprint(w, "Check out the static content over at <a href=\"/static\">/static</a>\n")
 	fmt.Fprint(w, "</body></html>\n")
 }
