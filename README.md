@@ -30,3 +30,6 @@ Deploying the app is no more difficult than running locally, but it does require
 $ flame run :deploy.create
 ```
 
+5. ???
+
+6. Profit!
