@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	port      = flag.Int("port", 8080, "The port to listen on")
+	port      = flag.Int("port", 8081, "The port to listen on")
 	staticDirectory = flag.String("static_directory", "./static", "the directory containing static files to host")
 )
 
@@ -43,6 +43,6 @@ func main() {
 	http.HandleFunc("/", handler)
 
 	hostAndPort := fmt.Sprintf("0.0.0.0:%d", *port)
-	log.Printf("Listening on http://%s\n", hostAndPort)
+	log.Printf("Totally Listening on http://%s\n", hostAndPort)
 	log.Fatal(http.ListenAndServe(hostAndPort, nil))
 }
