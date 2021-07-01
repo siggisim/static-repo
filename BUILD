@@ -53,3 +53,6 @@ k8s_deploy(
     tags = ["manual"],
     template = ":deployment.yaml",
 )
+
+
+build changes
