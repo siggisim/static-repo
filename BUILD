@@ -16,7 +16,8 @@ filegroup(
 )
 
 # Use the go_binary rule to create an executable from our main file. Depend on
-# the static_files we created above so they are included.
+# the static_files we creat
+ed above so they are included.
 go_binary(
     name = "main",
     srcs = ["main.go"],

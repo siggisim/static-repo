@@ -15,6 +15,7 @@ var (
 	staticDirectory = flag.String("static_directory", "./static", "the directory containing static files to host")
 )
 
+
 func init() {
 	// Parse all flags.
 	flag.Parse()
