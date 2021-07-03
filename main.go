@@ -18,7 +18,7 @@ var (
 func init() {
 	// Parse all flags.
 	flag.Parse()
-}
+}main
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "<html><body>\n")

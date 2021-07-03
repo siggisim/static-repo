@@ -16,6 +16,8 @@ $ curl tryflame.com/install.sh | sh
 $ flame new [APP_DIRECTORY]  "https://github.com/tryflame/flame-starter-go-static"
 ```
 
+readme
+
 3. Run the app locally.
 ```
 $ cd [APP_DIRECTORY} && flame run
