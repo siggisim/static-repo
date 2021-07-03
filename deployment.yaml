@@ -17,6 +17,10 @@ spec:
   template:
     metadata:
       labels:
+
+
+
+      
         app: server
     spec:
       nodeSelector:
